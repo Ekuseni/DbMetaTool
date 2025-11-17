@@ -691,13 +691,12 @@ namespace DbMetaTool
                     }
                     catch (Exception ex)
                     {
-                        failed.Add($"{file} -> {ex.Message}");
-
                         if (transaction != null)
                         {
                             throw; 
                         }
                         
+                        failed.Add($"{file} -> {ex.Message}");
                         Console.WriteLine($"Błąd przy wczytywaniu pliku: {file}: {ex.Message}");
                     }
                 }
