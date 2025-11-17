@@ -9,14 +9,6 @@ namespace DbMetaTool
         private const string TableScriptsSubdir = "tables";
         private const string ProcedureScriptsSubdir = "procedures";
 
-        private enum OperationMode
-        {
-            Invalid,
-            Create,
-            Alter,
-            Drop
-        }
-
         // Przykładowe wywołania:
         // DbMetaTool build-db --db-dir "C:\db\fb5" --scripts-dir "C:\scripts"
         // DbMetaTool export-scripts --connection-string "..." --output-dir "C:\out"
