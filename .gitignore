@@ -1,0 +1,65 @@
+# Build artifacts
+[Bb]in/
+[Oo]bj/
+**/bin/
+**/obj/
+out/
+publish/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider / IntelliJ
+.idea/
+*.sln.iml
+*.idea.*
+
+# ReSharper
+_ReSharper*/
+*.ReSharper
+*.DotSettings.user
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+package.lock.json
+.nuget/
+
+# ASP.NET / EF / config
+*.dbmdl
+appsettings*.Local.json
+secrets.json
+
+# Test results / coverage
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+~$*
+
+# OS files
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Editor folders
+.vscode/
+
+# Misc
+*.bak
+*.backup
+*.pid
+*.seed
